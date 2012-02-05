@@ -1,0 +1,10 @@
+.site-hero {
+    height: 250px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#banner-nav a { border: 1px solid #ccc; background: #fff; text-decoration: none; margin: 0 5px; padding: 3px 5px; top: -40px; left: 585px; z-index: 100; position: relative;}
+#banner-nav a.activeSlide { background: #000 }
+#banner-nav a:focus { outline: none; }
+

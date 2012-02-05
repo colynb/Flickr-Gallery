@@ -1,0 +1,519 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jetstream</title>
+
+
+		<script href="/static/20120105-1234567b/js/jquery.min.js" type="text/javascript"></script>
+		<script href="/static/20120105-1234567b/js/bootstrap/bootstrap-alerts.js" type="text/javascript"></script>
+		<script href="/static/20120105-1234567b/js/bootstrap/bootstrap-buttons.js" type="text/javascript"></script>
+
+		<script href="/static/20120105-1234567b/js/bootstrap/bootstrap-dropdown.js" type="text/javascript"></script>
+		<script href="/static/20120105-1234567b/js/bootstrap/bootstrap-modal.js" type="text/javascript"></script>
+		<script href="/static/20120105-1234567b/js/widget/navigation/top.js" type="text/javascript"></script>
+
+				<link href="/static/20120105-1234567b/css/base/reset.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/base/grid.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/base/styles.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/base/alerts.css" media="screen, print" rel="stylesheet" type="text/css" />
+
+		<link href="/static/20120105-1234567b/css/base/tooltip.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/base/forms.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/base/buttons.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/base/sections.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/base/tables.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/base/tabs.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/base/text.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/widget/navigation/left.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/widget/site/hero.css" media="screen, print" rel="stylesheet" type="text/css" />
+
+		<link href="/static/20120105-1234567b/css/widget/asset/featured.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/widget/navigation/top.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/widget/site/logo.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/widget/site/headerpromo.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/widget/navigation/gatewaymain.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/widget/navigation/search.css" media="screen, print" rel="stylesheet" type="text/css" />
+		<link href="/static/20120105-1234567b/css/widget/site/footer.css" media="screen, print" rel="stylesheet" type="text/css" />
+
+
+	</head>
+
+	<body>
+		<div class="container">
+			<nav class="clear span-25 last"><div class="widget-container navigation-top">
+
+	<ul class="nav">
+
+		<li class="active"><a href="http://local.System.adc">Home</a></li>
+		<li class=""><a href="http://local.System.adc/real-estate">Real Estate</a></li>
+
+		<li class=""><a href="http://local.System.adc/vehicles">Vehicles</a></li>
+		<li class=""><a href="http://local.System.adc/boats">Boats</a></li>
+		<li class=""><a href="http://local.System.adc/industrial">Industrial</a></li>
+
+	</ul>
+
+	<ul class="nav secondary-nav">
+
+
+		<li class="dropdown" data-dropdown="dropdown"><a class="dropdown-toggle" href="http://local.System.adc/home/account">Welcome colynb</a>
+			<ul class="dropdown-menu">
+				<li><a href="http://local.System.adc/home/account">My Account</a></li>
+				<li><a href="http://local.System.adc/home/account/dashboard">My Dashboard</a></li>
+				<li><a href="http://local.System.adc/home/account/dashboard/activity:alerts#activity">My Alerts</a></li>
+				<li class="divider"></li>
+				<li><a href="?logout=true">Logout</a></li>
+
+			</ul>
+		</li>
+
+		<li><a href="#about">Licensing</a></li>
+
+		<li class="dropdown" data-dropdown="dropdown"><a class="dropdown-toggle" href="http://local.System.adc/home/support">Customer Support</a>
+			<ul class="dropdown-menu align-right">
+				<li><a href="http://local.System.adc/home/support">Main</a></li>
+
+				<li><a href="http://local.System.adc/home/support/faq">FAQ</a></li>
+				<li><a href="http://local.System.adc/home/support/how-to">How To Videos</a></li>
+
+			</ul>
+		</li>
+
+	</ul>
+</div></nav>
+			<div class="clear span-25 last" id="header">
+
+				<div class="span-25 last">
+					<div class="span-5"><div class="widget-container site-logo"><div class="logo"><a href="/">&nbsp;</a></div></div></div>
+					<div class="span-10" id="header_promo"><div class="widget-container site-headerpromo"><blockquote class="header-promo">The Nation's Leading Real Estate Auctioneer.</blockquote></div></div>
+					<div class="span-10 last" id="cust_service_container"><div class="widget-container site-chat"><br />
+<img src="/static/20120105-1234567b/img/dummy-chat.png" /></div></div>
+				</div>
+				<div class="clear span-25 last" id="top-nav"><div class="widget-container navigation-gatewayMain"><ul class="dropdown dropdown-horizontal">
+	<li>
+		<a href="/real-estate/">Real Estate</a>
+
+		<ul>
+			<li><a href="/real-estate/commercial/?i=1&q1=real-estate&q2=Bank+Owned&x1=product_vertical&x2=product_category">Bank Owned</a></li>
+			<li><a href="/real-estate/commercial/?i=1&q1=real-estate&q2=Foreclosure&x1=product_vertical&x2=product_category">Foreclosure/Trustee</a></li>
+			<li><a href="/real-estate/commercial/?i=1&q1=real-estate&q2=Commercial&x1=product_vertical&x2=product_category">Commercial</a></li>
+			<li><a href="/real-estate/residential/?i=1&q1=real-estate&q2=Residential&x1=product_vertical&x2=product_category">Residential</a></li>
+			<li><a href="/real-estate/land/?i=1&q1=real-estate&q2=Notes&x1=product_vertical&x2=product_category">Notes</a></li>
+
+			<li><a href="/real-estate/land/?i=1&q1=real-estate&q2=Land&x1=product_vertical&x2=product_category">Land</a></li>
+			<li class="highlight"><a href="#">Sell your property</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="/vehicles/">Vehicles</a>
+	</li>
+
+	<li>
+		<a href="/boats/">Boats</a>
+	</li>
+	<li>
+		<a href="/industrial/">Industrial</a>
+	</li>
+</ul></div></div>
+				<div class="clear span-25 last"><div class="widget-container navigation-search"><div class="search-container">
+
+
+	<form action="/search" method="get">
+
+		<input type="text" placeholder="Search" name="q" id="query" class="span7" />
+
+		<select>
+			<option value="">All categories</option>
+		</select>
+
+		<button class="btn search">Search</button>
+
+		<label class="map-label"><input type="checkbox" name="view" value="map" />&nbsp;View results in map</label>
+		<br /><span class="underline"><a href="#">Quick Local Search: within 50 miles of {LOCATION}</a></span>
+	</form>
+
+
+</div></div></div>
+			</div>
+			<div class="clear span-25 last"><div class="span-6"><div class="widget-container navigation-left">
+	<ul>
+
+		<li><a href="#">What's new</a></li>
+		<li><a href="#">Sign-up for email</a></li>
+		<li><a href="#">Community</a></li>
+		<li><a href="#">How-to guides</a></li>
+		<li><a href="#">Services</a></li>
+		<li><a href="#">About Auction.com</a></li>
+
+	</ul>
+
+
+
+</div></div>
+<div class="span-19 last">
+	<div>
+		<div class="widget-container site-hero"><div id="s1">
+	<div>
+		<img src="/static/20120105-1234567b/img/img1.jpg" />
+		<img src="/static/20120105-1234567b/img/img2.jpg" />
+
+		<img src="/static/20120105-1234567b/img/img3.jpg" />
+		<img src="/static/20120105-1234567b/img/img4.png" />
+	</div>
+</div></div>	</div>
+	<div>
+		<div class="widget-container asset-featured">
+<div class="section clear">
+	<h2>Featured Auctions</h2>
+	<div id="s2" class="featured-properties section-body">
+
+
+		<!-- root element for scrollable -->
+
+		<div class="scrollable">
+
+			<!-- root element for the items -->
+			<div class="items">
+
+				<!-- 1-5 -->
+				<div>
+
+					<p>
+						<a href="/real-estate/auction/detail/22">
+							<img src="/img/assets/no-image147x109.jpg" width="100" /><br/><span class="title">118 BRAMBLE OAK DR-WOO...</span><br /></a>
+
+						<span class="desc">Starting Bid: $15,000.00</span>
+
+					</p>
+					<p>
+						<a href="/real-estate/auction/detail/23">
+
+							<img src="/img/assets/no-image147x109.jpg" width="100" /><br/><span class="title">527 WAGON WHEEL CLIMB-...</span><br /></a>
+						<span class="desc">Starting Bid: $19,000.00</span>
+
+					</p>
+					<p>
+						<a href="/real-estate/auction/detail/24">
+							<img src="/img/assets/no-image147x109.jpg" width="100" /><br/><span class="title">3984 WILLOSystemROOK DR-DO...</span><br /></a>
+						<span class="desc">Starting Bid: $5,000.00</span>
+
+					</p>
+					<p>
+
+						<a href="/real-estate/auction/detail/25">
+							<img src="/img/assets/no-image147x109.jpg" width="100" /><br/><span class="title">147 WOOD ST-FORT VALLE...</span><br /></a>
+						<span class="desc">Starting Bid: $9,000.00</span>
+
+					</p>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+</div>	</div>
+	<div>
+
+		<h3>Hot Deals</h3>
+	</div>
+</div></div>
+			<div class="clear span-25 last"><div class="widget-container site-footer">
+<div id="footer">
+	<div class="section">
+		<div class="logo"><a href="/real-estate/">&nbsp;</a></div>
+		<div class="social"><a href="#">&nbsp;</a></div>
+	</div>
+
+	<div class="section">
+		<h3>Auction.com</h3>
+		<ul>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">News</a></li>
+
+		</ul>
+	</div>
+
+	<div class="section">
+		<h3>Auction</h3>
+		<ul>
+			<li><a href="#">Auctions Home</a></li>
+			<li><a href="#">Blog</a></li>
+
+			<li><a href="#">Receive Alerts</a></li>
+			<li><a href="#">Broker Co-operation</a></li>
+		</ul>
+	</div>
+
+	<div class="section">
+		<h3>General Info</h3>
+
+		<ul>
+			<li><a href="#">Faqs</a></li>
+			<li><a href="#">Licensing</a></li>
+			<li><a href="#">Site Map</a></li>
+			<li><a href="#">Privacy Policy</a></li>
+		</ul>
+	</div>
+
+	<form method=post action="#">
+
+		<div class="blastColom">
+			<h3>Subscribe to our newsletter</h3>
+			<input type="text" placeholder="Enter your email..." />
+			<button>Sign-up</button><br />
+			<small>Sign up for the latest news about Auction.com</small>
+
+		</div>
+
+	</form>
+
+
+	<div class="clear small">&copy; 2011 Auction.com. All Rights Reserved.</div>
+
+</div></div></div>
+			<div class="clear span-25 last"><div class="widget-container profiler-report">
+<div class="profiler_container">
+	<div class="profiler_body">
+
+		<table class="bordered-table">
+			<tr><th colspan="2">APPLICATION PERFORMANCE REPORT</th></tr>
+			<tr><td width="200">Peak Memory Usage:</td><td>0.9667 megabytes</td></tr>
+			<tr><td width="200">Total App Runtime:</td><td>0.391 seconds</td></tr>
+			<tr><th colspan="2">LOAD TIME MARKERS</th></tr>
+			<tr><td colspan="2">
+
+					<table class="waterfall">
+						<tr>
+							<th>Profiler Start</th>
+							<td>0.391 seconds</td>
+						</tr>
+													<tr>
+								<th>Profiler Total</th>
+
+								<td>0.1261 seconds</td>
+							</tr>
+												</table>
+					</div>
+				</td></tr>
+		</table>
+	</div>
+</div></div></div>
+			<div class="clear span-25 last"><div class="widget-container console-view">
+
+<table class="debug-output-table">
+
+			<tr><th>[Console log] Missing JS</th></tr>
+
+					<tr>
+				<td>
+					<strong>/Users/colynb/Sites/jetstream/core/widgets/html_widget.php line 104</strong><br />
+					/static/20120105-1234567b/js/widget/navigation/left.js<br />
+/static/20120105-1234567b/js/widget/site/hero.js<br />
+
+/static/20120105-1234567b/js/widget/asset/featured.js<br />
+/static/20120105-1234567b/js/widget/site/logo.js<br />
+/static/20120105-1234567b/js/widget/site/headerpromo.js<br />
+/static/20120105-1234567b/js/widget/site/chat.js<br />
+/static/20120105-1234567b/js/widget/navigation/gatewaymain.js<br />
+/static/20120105-1234567b/js/widget/navigation/search.js<br />
+/static/20120105-1234567b/js/widget/site/footer.js				</td>
+			</tr>
+						<tr><th>[Console log] Loaded JS</th></tr>
+
+					<tr>
+				<td>
+					<strong>/Users/colynb/Sites/jetstream/core/widgets/html_widget.php line 105</strong><br />
+					<pre>Array
+(
+    [0] => Array
+        (
+            [href] => /static/20120105-1234567b/js/jquery.min.js
+            [source] => /Users/colynb/Sites/jetstream/core//static/js/jquery.min.js
+        )
+
+    [1] => Array
+        (
+            [href] => /static/20120105-1234567b/js/bootstrap/bootstrap-alerts.js
+            [source] => /Users/colynb/Sites/jetstream/core//static/js/bootstrap/bootstrap-alerts.js
+        )
+
+    [2] => Array
+        (
+            [href] => /static/20120105-1234567b/js/bootstrap/bootstrap-buttons.js
+            [source] => /Users/colynb/Sites/jetstream/core//static/js/bootstrap/bootstrap-buttons.js
+        )
+
+    [3] => Array
+        (
+            [href] => /static/20120105-1234567b/js/bootstrap/bootstrap-dropdown.js
+            [source] => /Users/colynb/Sites/jetstream/core//static/js/bootstrap/bootstrap-dropdown.js
+        )
+
+    [4] => Array
+        (
+            [href] => /static/20120105-1234567b/js/bootstrap/bootstrap-modal.js
+            [source] => /Users/colynb/Sites/jetstream/core//static/js/bootstrap/bootstrap-modal.js
+        )
+
+    [5] => Array
+        (
+            [href] => /static/20120105-1234567b/js/widget/navigation/top.js
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/js/widget/navigation/top.js
+        )
+
+)
+</pre>				</td>
+			</tr>
+						<tr><th>[Console log] Missing CSS</th></tr>
+
+					<tr>
+				<td>
+					<strong>/Users/colynb/Sites/jetstream/core/widgets/html_widget.php line 47</strong><br />
+					/static/20120105-1234567b/css/widget/site/chat.css				</td>
+			</tr>
+						<tr><th>[Console log] Loaded CSS</th></tr>
+
+					<tr>
+				<td>
+					<strong>/Users/colynb/Sites/jetstream/core/widgets/html_widget.php line 48</strong><br />
+					<pre>Array
+(
+    [0] => Array
+        (
+            [href] => /static/20120105-1234567b/css/base/reset.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/base/reset.css
+        )
+
+    [1] => Array
+        (
+            [href] => /static/20120105-1234567b/css/base/grid.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/base/grid.css
+        )
+
+    [2] => Array
+        (
+            [href] => /static/20120105-1234567b/css/base/styles.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/base/styles.css
+        )
+
+    [3] => Array
+        (
+            [href] => /static/20120105-1234567b/css/base/alerts.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/base/alerts.css
+        )
+
+    [4] => Array
+        (
+            [href] => /static/20120105-1234567b/css/base/tooltip.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/base/tooltip.css
+        )
+
+    [5] => Array
+        (
+            [href] => /static/20120105-1234567b/css/base/forms.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/base/forms.css
+        )
+
+    [6] => Array
+        (
+            [href] => /static/20120105-1234567b/css/base/buttons.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/base/buttons.css
+        )
+
+    [7] => Array
+        (
+            [href] => /static/20120105-1234567b/css/base/sections.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/base/sections.css
+        )
+
+    [8] => Array
+        (
+            [href] => /static/20120105-1234567b/css/base/tables.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/base/tables.css
+        )
+
+    [9] => Array
+        (
+            [href] => /static/20120105-1234567b/css/base/tabs.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/base/tabs.css
+        )
+
+    [10] => Array
+        (
+            [href] => /static/20120105-1234567b/css/base/text.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/base/text.css
+        )
+
+    [11] => Array
+        (
+            [href] => /static/20120105-1234567b/css/widget/navigation/left.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/widget/navigation/left.css
+        )
+
+    [12] => Array
+        (
+            [href] => /static/20120105-1234567b/css/widget/site/hero.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/widget/site/hero.css
+        )
+
+    [13] => Array
+        (
+            [href] => /static/20120105-1234567b/css/widget/asset/featured.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/widget/asset/featured.css
+        )
+
+    [14] => Array
+        (
+            [href] => /static/20120105-1234567b/css/widget/navigation/top.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/widget/navigation/top.css
+        )
+
+    [15] => Array
+        (
+            [href] => /static/20120105-1234567b/css/widget/site/logo.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/widget/site/logo.css
+        )
+
+    [16] => Array
+        (
+            [href] => /static/20120105-1234567b/css/widget/site/headerpromo.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/widget/site/headerpromo.css
+        )
+
+    [17] => Array
+        (
+            [href] => /static/20120105-1234567b/css/widget/navigation/gatewaymain.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/widget/navigation/gatewaymain.css
+        )
+
+    [18] => Array
+        (
+            [href] => /static/20120105-1234567b/css/widget/navigation/search.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/widget/navigation/search.css
+        )
+
+    [19] => Array
+        (
+            [href] => /static/20120105-1234567b/css/widget/site/footer.css
+            [source] => /Users/colynb/Sites/jetstream/apps/adc/builds/20120105//static/css/widget/site/footer.css
+        )
+
+)
+</pre>				</td>
+			</tr>
+					</table>
+</div></div>
+		</div>
+
+
+	</body>
+
+
+</html>

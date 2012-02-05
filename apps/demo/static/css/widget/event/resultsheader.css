@@ -1,0 +1,104 @@
+.event-resultsheader {
+    margin-bottom: 10px;
+}
+
+.event-resultsheader ul.tabs {
+    padding-left: 20px;
+}
+
+
+/**
+ * Search Options
+*/
+
+.search-options ul {
+    list-style: none;
+}
+
+.search-options ul li {
+    float: left;
+}
+
+.search-options-section {
+    padding: 10px;
+    float: left;
+}
+
+
+/**
+ * Pagination Links
+ */
+.search-options-section li {
+    background-image: url({COMPILE:__static:/img/icons/search/selected_tab.png});
+    border: 1px solid #ccc;
+    color: #000;
+    height: 22px;
+    line-height: 22px;
+    margin: 2px;
+}
+.search-options-section li a {
+    display: block;
+    text-align: center;
+    padding: 0 8px 0 8px;
+    color: #333;
+}
+
+.search-options-section li:hover {
+    border: solid 1px #666;
+}
+
+.search-options-section li a:hover {
+    background-color: rgba(49,89,134,0.5);
+}
+
+.search-options-section li.selected {
+    background: none;
+    background-color: rgba(49,89,134,1);
+    color: #FFF;
+    border: solid 1px #333;
+}
+
+.search-options-section li.selected a {
+    color: #FFF;
+}
+
+.search-options-section li.label {
+    border: none;
+    background: none;
+    font-weight: bold;
+}
+
+.search-sort-options {
+    float: right;
+}
+
+.search-sort-options select {
+    background-image: url({COMPILE:__static:/img/icons/search/selected_tab.png});
+    border: 1px solid #ccc;
+    color: #000;
+    height: 22px;
+    margin: 2px;
+    font-size: 12px;
+    padding: 1px;
+}
+
+
+.search-view li {
+
+}
+
+.search-view li a[rel="map"] {
+    text-indent: -9999px;
+    background: url({COMPILE:__static:/img/icons/search/map_view.png}) no-repeat center center;
+    padding: 0 11px 0 11px;
+}
+
+.search-view li a[rel="list"] {
+    text-indent: -9999px;
+    background: url({COMPILE:__static:/img/icons/search/list_view.png}) no-repeat center center;
+    padding: 0 11px 0 11px;
+}
+
+.save-search {
+    float: right;
+}

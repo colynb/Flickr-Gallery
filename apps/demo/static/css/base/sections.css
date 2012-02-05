@@ -1,0 +1,80 @@
+.section > h2 {
+    background: #454548 url('{COMPILE:__static:/img/section-header-bkg.png}') repeat-x;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px 15px 10px 15px;
+    border: solid 1px #333;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-shadow: #333 -1px -1px 0px;
+}
+
+.section-body {
+    background: #FFF url('{COMPILE:__static:/img/section-body-bkg.png}') repeat-x;
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px;
+    border: solid 1px #999;
+    border-top: 0px;
+    margin-bottom: 10px;
+}
+
+.section-panel {
+    background: #C1CFAB url('{COMPILE:__static:/img/section-panel-header-bkg.png}') repeat-x;
+    -moz-box-shadow: 1px 1px 0px #839F58;
+    -webkit-box-shadow: 1px 1px 0px #839F58;
+    box-shadow: 1px 1px 0px #839F58;
+    margin-bottom: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #C1CFAB;
+}
+.section-panel > h2 {
+    background: none;
+    color: #3D5A19;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px 15px 10px 15px;
+    text-shadow: #fff -1px -1px 0px;
+    text-align: center;
+}
+
+.section-panel .footer {
+    background: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+}
+
+.section-panel .footer a {
+    color: #000;
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.section-panel .footer a.button {
+    text-decoration: none;
+    font-size: 12px;
+}
+.section-panel-body {
+    background: #FFF;
+    font-weight: bold;
+    margin: 0px 5px 5px 5px;
+    padding: 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #C1CFAB;
+    border-width: 1px 0 0 1px;
+}

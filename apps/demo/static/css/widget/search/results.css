@@ -1,0 +1,116 @@
+#map_canvas {
+    margin: 0;
+    padding: 0;
+    height: 500px;
+}
+
+
+a.location {
+
+    padding-right: 28px;
+    line-height: 29px;
+    height: 29px;
+    display: block;
+    float: left;
+    margin: 3px;
+}
+
+a.location:hover {
+    text-decoration: underline;
+}
+
+a.list-view {
+    background-image: url({COMPILE:__static:/img/icons/search/save.png});
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    line-height: 16px;
+    height: 16px;
+    display: block;
+}
+
+a.map-view {
+    background-image: url({COMPILE:__static:/img/icons/search/save.png});
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    line-height: 16px;
+    height: 16px;
+    display: block;
+}
+
+a.grid-view {
+    background-image: url({COMPILE:__static:/img/icons/search/save.png});
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    line-height: 16px;
+    height: 16px;
+    display: block;
+}
+
+
+
+
+
+.product-style{
+    margin-top: 10px;
+}
+
+.product-image {
+    border: solid 1px #999999;
+    padding: 2px;
+    margin: 0 15px 0 10px;
+    width: 155px;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+}
+
+.product-info span{
+    font-weight: bold;
+}
+.product-info p{
+    margin-bottom: 4px;
+}
+.product-info .numbers{
+    color: #C5C5C5;
+}
+.product-info .date{
+    color: #CC0000;
+}
+.product-info .start-bid{
+    color: #607A42;
+
+}
+
+
+.section-panel.search-result .section-panel-body {
+    padding-bottom: 10px;
+}
+
+.section-panel.search-result .distance {
+    float: right;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.section-panel.search-result .marker {
+    background: url({COMPILE:__static:/img/icons/search/location.png}) repeat-x left center;
+    float: left;
+    height: 29px;
+    width: 20px;
+    margin-right: 6px;
+}
+
+
+.section-panel.search-result h2 {
+    text-align: left;
+}
+
+.section-panel.search-result h2 a {
+    color: #3D5A19;
+    font-size: 16px;
+}
+
+.section-panel.search-result h2 a:hover {
+    color: #333;
+}

@@ -1,0 +1,31 @@
+.search-container {
+
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+
+
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-top: none;
+    margin-bottom: 10px;
+}
+
+
+.search-container select  {
+    width: 120px;
+}
+
+.search-container form {
+    margin-bottom: 0px;
+}
+
+.search-container form .map-label {
+    display: inline;
+}

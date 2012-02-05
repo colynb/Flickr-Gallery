@@ -1,0 +1,131 @@
+table {
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 0;
+    font-size: 13px;
+    border-collapse: collapse;
+}
+table th, table td {
+    padding: 10px 10px 9px;
+    line-height: 18px;
+    text-align: left;
+}
+table th {
+    padding-top: 9px;
+    font-weight: bold;
+    vertical-align: middle;
+    font-size: 13px;
+}
+table td {
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    font-size: 11px;
+}
+
+table.borderless td, table.borderless th {
+    vertical-align: top;
+    border-top: 0px solid #ddd;
+}
+
+table tbody th {
+    border-top: 1px solid #ddd;
+    vertical-align: top;
+}
+
+
+.zebra-striped tbody tr:nth-child(odd) td, .zebra-striped tbody tr:nth-child(odd) th {
+    background-color: #eee;
+}
+.zebra-striped tbody tr:hover td, .zebra-striped tbody tr:hover th {
+    background-color: #ccc;
+}
+
+
+
+
+
+
+table .blue {
+    color: #049cdb;
+    border-bottom-color: #049cdb;
+}
+
+table .green {
+    color: #46a546;
+    border-bottom-color: #46a546;
+}
+
+table .red {
+    color: #9d261d;
+    border-bottom-color: #9d261d;
+}
+
+table .yellow {
+    color: #ffc40d;
+    border-bottom-color: #ffc40d;
+}
+
+table .orange {
+    color: #f89406;
+    border-bottom-color: #f89406;
+}
+
+table .purple {
+    color: #7a43b6;
+    border-bottom-color: #7a43b6;
+}
+
+.condensed-table th, .condensed-table td {
+    padding: 5px 5px 4px;
+}
+.bordered-table {
+    border: 1px solid #ddd;
+    border-collapse: separate;
+    *border-collapse: collapse;
+    /* IE7, collapse table to remove spacing */
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.bordered-table th + th, .bordered-table td + td, .bordered-table th + td {
+    border-left: 1px solid #ddd;
+}
+.bordered-table thead tr:first-child th:first-child, .bordered-table tbody tr:first-child td:first-child {
+    -webkit-border-radius: 4px 0 0 0;
+    -moz-border-radius: 4px 0 0 0;
+    border-radius: 4px 0 0 0;
+}
+.bordered-table thead tr:first-child th:last-child, .bordered-table tbody tr:first-child td:last-child {
+    -webkit-border-radius: 0 4px 0 0;
+    -moz-border-radius: 0 4px 0 0;
+    border-radius: 0 4px 0 0;
+}
+.bordered-table tbody tr:last-child td:first-child {
+    -webkit-border-radius: 0 0 0 4px;
+    -moz-border-radius: 0 0 0 4px;
+    border-radius: 0 0 0 4px;
+}
+.bordered-table tbody tr:last-child td:last-child {
+    -webkit-border-radius: 0 0 4px 0;
+    -moz-border-radius: 0 0 4px 0;
+    border-radius: 0 0 4px 0;
+}
+
+
+.strong-header th {
+    background: #ffffff; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMlIiBzdG9wLWNvbG9yPSIjZWZlZmVmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RlZGVkZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top,  #ffffff 0%, #efefef 3%, #dedede 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(3%,#efefef), color-stop(100%,#dedede)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#efefef 3%,#dedede 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#efefef 3%,#dedede 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#efefef 3%,#dedede 100%); /* IE10+ */
+    background: linear-gradient(top,  #ffffff 0%,#efefef 3%,#dedede 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dedede',GradientType=0 ); /* IE6-8 */
+
+    border-bottom: solid 1px #aaa;
+    font-size: 13px;
+    white-space:nowrap;
+}

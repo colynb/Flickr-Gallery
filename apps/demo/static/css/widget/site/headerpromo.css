@@ -1,0 +1,10 @@
+
+.header-promo {
+    color: #666666;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 1.5em;
+    border: none;
+    white-space:nowrap;
+}

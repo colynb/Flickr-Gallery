@@ -1,0 +1,44 @@
+.navigation-left {
+    background-color: #EEE;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.navigation-left ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-left ul li {
+    padding: 6px 20px 6px 20px;
+    border: solid 1px #333;
+    color: #FFF;
+    background: #325D89 url('{COMPILE:__static:/img/button.bkg.png}') repeat-x left top;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+.navigation-left ul li:hover {
+    background: #1A3A5B url('{COMPILE:__static:/img/button.bkg.png}') repeat-x left top !important;
+}
+
+
+.navigation-left ul li a {
+    display: block;
+    color: #FFF;
+}
+
+.navigation-left ul li a:hover {
+    text-decoration: underline;
+}
+
+.navigation-left {
+    margin-top: 5px;
+    background-color: #EEE;
+    text-align: center;
+    border: solid 1px #CCC;
+    padding: 5px;
+    height:330px;
+    vertical-align:middle;
+}

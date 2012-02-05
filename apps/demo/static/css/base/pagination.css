@@ -1,0 +1,46 @@
+.pagination ul {
+    list-style: none outside none;
+}
+
+.pagination-section {
+    float: right;
+    padding: 10px;
+}
+
+.pagination ul li {
+    float: left;
+}
+
+.pagination-section li {
+    background-image: url("/static/adc/20110910110613-AF3DE8:AAAABC/browser/img/icons/search/selected_tab.png");
+    border: 1px solid #CCCCCC;
+    color: #000000;
+    height: 22px;
+    line-height: 22px;
+    margin: 2px;
+}
+
+.pagination-section li.selected {
+    background: none repeat scroll 0 0 #315986;
+    border: 1px solid #333333;
+    color: #FFFFFF;
+}
+.pagination-section li.selected a {
+    color: #FFFFFF;
+}
+
+.pagination-section li a {
+    color: #333333;
+    display: block;
+    padding: 0 8px;
+    text-align: center;
+}
+
+.pagination span select {
+    width: 60px;
+}
+
+.plain {
+    background-image:none !important;
+    border:0px !important;
+}

@@ -1,0 +1,307 @@
+.navigation-top {
+    height: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    overflow: visible;
+    background: #333;
+}
+.navigation-top a {
+    color: #fff;
+    font-weight: bold;
+}
+.navigation-top h3 a:hover, .navigation-top .brand:hover, .navigation-top ul .active > a {
+    background-color: #333;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: {COMPILE:__color:primary-bright} !important;
+    text-decoration: none;
+}
+.navigation-top h3 {
+    position: relative;
+}
+.navigation-top h3 a, .navigation-top .brand {
+    float: left;
+    display: block;
+    padding: 8px 20px 12px;
+    margin-left: -20px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1;
+}
+.navigation-top p {
+    margin: 0;
+    line-height: 20px;
+}
+.navigation-top p a:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+
+
+.navigation-top-inner, .navigation-top .fill {
+    background-color: #222;
+    background-color: #222222;
+    background-repeat: repeat-x;
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#333333), to(#222222));
+    background-image: -moz-linear-gradient(top, #333333, #222222);
+    background-image: -ms-linear-gradient(top, #333333, #222222);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #222222));
+    background-image: -webkit-linear-gradient(top, #333333, #222222);
+    background-image: -o-linear-gradient(top, #333333, #222222);
+    background-image: linear-gradient(top, #333333, #222222);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+.navigation-top div > ul, .nav {
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    position: relative;
+    left: 0;
+}
+.navigation-top div > ul > li, .nav > li {
+    display: block;
+    float: left;
+}
+.navigation-top div > ul a, .nav a {
+    display: block;
+    float: none;
+    padding: 0 10px 0 10px;
+    line-height: 19px;
+    text-decoration: none;
+}
+.nav a {
+    display:inline;
+}
+.navigation-top div > ul a:hover, .nav a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.navigation-top div > ul .active > a, .nav .active > a {
+    background-color: #222;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navigation-top div > ul.secondary-nav, .nav.secondary-nav {
+    float: right;
+    margin-left: 10px;
+}
+.navigation-top div > ul.secondary-nav .menu-dropdown,
+.nav.secondary-nav .menu-dropdown,
+.navigation-top div > ul.secondary-nav .dropdown-menu,
+.nav.secondary-nav .dropdown-menu {
+    border: 0;
+}
+
+.dropdown-menu.align-right {
+    right: 0px;
+}
+
+.navigation-top div > ul a.menu:hover,
+.nav a.menu:hover,
+.navigation-top div > ul li.open .menu,
+.nav li.open .menu,
+.navigation-top div > ul .dropdown-toggle:hover,
+.nav .dropdown-toggle:hover,
+.navigation-top div > ul .dropdown.open .dropdown-toggle,
+.nav .dropdown.open .dropdown-toggle {
+    background: #444;
+    background: rgba(255, 255, 255, 0.05);
+}
+.navigation-top div > ul .menu-dropdown,
+.nav .menu-dropdown,
+.navigation-top div > ul .dropdown-menu,
+.nav .dropdown-menu {
+    background-color: #333;
+}
+.navigation-top div > ul .menu-dropdown a.menu,
+.nav .menu-dropdown a.menu,
+.navigation-top div > ul .dropdown-menu a.menu,
+.nav .dropdown-menu a.menu,
+.navigation-top div > ul .menu-dropdown .dropdown-toggle,
+.nav .menu-dropdown .dropdown-toggle,
+.navigation-top div > ul .dropdown-menu .dropdown-toggle,
+.nav .dropdown-menu .dropdown-toggle {
+    color: #ffffff;
+}
+.navigation-top div > ul .menu-dropdown a.menu.open,
+.nav .menu-dropdown a.menu.open,
+.navigation-top div > ul .dropdown-menu a.menu.open,
+.nav .dropdown-menu a.menu.open,
+.navigation-top div > ul .menu-dropdown .dropdown-toggle.open,
+.nav .menu-dropdown .dropdown-toggle.open,
+.navigation-top div > ul .dropdown-menu .dropdown-toggle.open,
+.nav .dropdown-menu .dropdown-toggle.open {
+    background: #444;
+    background: rgba(255, 255, 255, 0.05);
+}
+.navigation-top div > ul .menu-dropdown li a,
+.nav .menu-dropdown li a,
+.navigation-top div > ul .dropdown-menu li a,
+.nav .dropdown-menu li a {
+    color: #fff;
+}
+.navigation-top div > ul .menu-dropdown li a:hover,
+.nav .menu-dropdown li a:hover,
+.navigation-top div > ul .dropdown-menu li a:hover,
+.nav .dropdown-menu li a:hover {
+    background-color: #191919;
+    background-repeat: repeat-x;
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#292929), to(#191919));
+    background-image: -moz-linear-gradient(top, #292929, #191919);
+    background-image: -ms-linear-gradient(top, #292929, #191919);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #292929), color-stop(100%, #191919));
+    background-image: -webkit-linear-gradient(top, #292929, #191919);
+    background-image: -o-linear-gradient(top, #292929, #191919);
+    background-image: linear-gradient(top, #292929, #191919);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#191919', GradientType=0);
+    color: #ffffff;
+}
+.navigation-top div > ul .menu-dropdown .active a,
+.nav .menu-dropdown .active a,
+.navigation-top div > ul .dropdown-menu .active a,
+.nav .dropdown-menu .active a {
+    color: {AFW:__color:primary-bright} !important;
+}
+.navigation-top div > ul .menu-dropdown .divider,
+.nav .menu-dropdown .divider,
+.navigation-top div > ul .dropdown-menu .divider,
+.nav .dropdown-menu .divider {
+    background-color: #222;
+    border-color: #444;
+}
+.navigation-top ul .menu-dropdown li a, .navigation-top ul .dropdown-menu li a {
+    padding: 4px 15px;
+}
+li.menu, .dropdown {
+    position: relative;
+}
+a.menu:after, .dropdown-toggle:after {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    content: "&darr;";
+    text-indent: -99999px;
+    vertical-align: top;
+    margin-top: 8px;
+    margin-left: 4px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #ffffff;
+    filter: alpha(opacity=50);
+    -khtml-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+.menu-dropdown, .dropdown-menu {
+    background-color: #ffffff;
+    float: left;
+    display: none;
+    position: absolute;
+    top: 20px;
+    z-index: 900;
+    min-width: 180px;
+    max-width: 220px;
+    _width: 160px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 6px 0;
+    zoom: 1;
+    border-color: #999;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 0 1px 1px;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.menu-dropdown li, .dropdown-menu li {
+    float: none;
+    display: block;
+    background-color: none;
+}
+.menu-dropdown .divider, .dropdown-menu .divider {
+    height: 1px;
+    margin: 5px 0;
+    overflow: hidden;
+    background-color: #eee;
+    border-bottom: 1px solid #ffffff;
+}
+.navigation-top .dropdown-menu a, .dropdown-menu a {
+    display: block;
+    padding: 4px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #fff;
+}
+.navigation-top .dropdown-menu a:hover,
+.dropdown-menu a:hover,
+.navigation-top .dropdown-menu a.hover,
+.dropdown-menu a.hover {
+    background-color: #dddddd;
+    background-repeat: repeat-x;
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#eeeeee), to(#dddddd));
+    background-image: -moz-linear-gradient(top, #eeeeee, #dddddd);
+    background-image: -ms-linear-gradient(top, #eeeeee, #dddddd);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #dddddd));
+    background-image: -webkit-linear-gradient(top, #eeeeee, #dddddd);
+    background-image: -o-linear-gradient(top, #eeeeee, #dddddd);
+    background-image: linear-gradient(top, #eeeeee, #dddddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#dddddd', GradientType=0);
+    color: {AFW:__color:primary-bright};
+text-decoration: none;
+-webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.025), inset 0 -1px rgba(0, 0, 0, 0.025);
+-moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.025), inset 0 -1px rgba(0, 0, 0, 0.025);
+box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.025), inset 0 -1px rgba(0, 0, 0, 0.025);
+}
+.open .menu,
+.dropdown.open .menu,
+.open .dropdown-toggle,
+.dropdown.open .dropdown-toggle {
+    color: #ffffff;
+    background: #ccc;
+    background: rgba(0, 0, 0, 0.3);
+}
+.open .menu-dropdown,
+.dropdown.open .menu-dropdown,
+.open .dropdown-menu,
+.dropdown.open .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu form {
+    padding: 10px;
+}
+
+.dropdown-menu form input {
+    font-size: 12px;
+    width: 170px;
+    margin: 0 0 8px 0 !important;
+    background-color: #ddd;
+    color: #333;
+
+}
+
+.dropdown-menu form input:focus {
+    background-color: #eee;
+    border-color: #fff;
+}
+
+.dropdown-menu form button { float: right; }
+.dropdown-menu form a { display: inline !important; font-size: 11px; padding: 0px !important; margin: 0px !important; }
+
+.dropdown-menu form label {
+    font-size: 11px;
+    color: #aaa;
+}

@@ -1,0 +1,25 @@
+/*-------------------------------------------------------------------------------------------------
+   Lithium: the most rad php framework
+
+   @copyright     Copyright 2011, Union of RAD (http://union-of-rad.org)
+   @license       http://opensource.org/licenses/bsd-license.php The BSD License
+-------------------------------------------------------------------------------------------------*/
+
+
+#container {
+	position: relative;
+	padding: 60px 10%;
+}
+
+/*--- Header ---*/
+#header h1 {
+	margin: .1em 0;
+	font-size: 35px;
+}
+#header h2 {
+	width: 70%;
+	margin: .5em .5em 2em 0;
+	color: #666;
+	font-size: 22px;
+	line-height: 28px;
+}
